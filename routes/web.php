@@ -17,3 +17,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::resource('rental','AdminController');
+
+Auth::routes();
+
+Route::get('/home', 'AdminController@index')->name('home');

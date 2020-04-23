@@ -24,7 +24,7 @@
                             Nama
                         </div>
                         <div class="col-md-8 no-margin">
-                            Bregas Ardianto
+                            Nyoman Arya Wilaputra
                         </div>
                     </div>
                     <div class="col-lg-12 form-group">
@@ -32,12 +32,12 @@
                             Nim
                         </div>
                         <div class="col-md-8 no-margin">
-                            1815051076
+                            1815051035
                         </div>
                     </div>
                     <div class="col-lg-12 form-group">
                         <div class="col-md-4 no-margin">
-                            program studi
+                            PRODI
                         </div>
                         <div class="col-md-8 no-margin">
                             Pendidikan Teknik Informatika
@@ -53,7 +53,7 @@
                             judul
                         </div>
                         <div class="col-md-8 no-margin">
-                            Sistem Rental Mobil
+                            Penjualan Mobil
                         </div>
                     </div>
                     <div class="col-lg-12 form-group">
@@ -61,7 +61,7 @@
                             penjelasan
                         </div>
                         <div class="col-md-8 no-margin">
-                        Sistem rental mobil ini bertujuan untuk mempermudah pelanggan dalam memilih mobil yang akan disewa  
+                        Sistem penjualan ini digunakan untuk mengetahui mobil-mobil yang tersedia dengan cara ditambahkan atau diinput oleh user mobil apa saja yang tersedia. 
                         </div>
                     </div>
             </div>
@@ -70,7 +70,7 @@
             <a href="{{route('rental.create')}}">Tambah Data</a>
                 <table class="table table-bordered">
                     <thead>
-                        <tr><th>#</th><th>MOBIL</th><th>PLAT</th><th>WARNA</th><th>TAHUN</th></tr>
+                        <tr><th>#</th><th>MOBIL</th><th>PLAT</th><th>WARNA</th><th>TAHUN KELUARAN</th></tr>
                     </thead>
                     <tbody>
                         @foreach ($mobil as $in=>$val)
